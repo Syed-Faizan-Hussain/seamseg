@@ -3,7 +3,11 @@
     <editor />
   </component>
   <component name="VimKeySettings">
-    <shortcut-conflicts />
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
   </component>
   <component name="VimMarksSettings">
     <globalmarks />
@@ -11,8 +15,32 @@
       <file name="/Python Console" timestamp="1636729849696">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/PycharmProjects/seamseg/pip.conf" timestamp="1636731880192">
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="0" column="8" />
+      </file>
     </filemarks>
     <jumps />
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="1" type="2">
+        <text>index-url = https://D:KEY@artifacts.daimler.com/artifactory/api/pypi/pypi-opensource-virtual/simple</text>
+      </register>
+      <register name="&quot;" type="2">
+        <text>index-url = https://D:KEY@artifacts.daimler.com/artifactory/api/pypi/pypi-opensource-virtual/simple</text>
+      </register>
+      <register name="2" type="2">
+        <text>index-url = https://USERID:KEY@artifacts.daimler.com/artifactory/api/pypi/pypi-opensource-virtual/simple</text>
+      </register>
+      <register name="3" type="2">
+        <text>index-url = https://USERID:KEY@artifacts.daimler.com/artifactory/api/pypi/pypi-opensource-virtual/simple</text>
+      </register>
+      <register name="-" type="4">
+        <text>I</text>
+      </register>
+    </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
